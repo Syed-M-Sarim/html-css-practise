@@ -1,13 +1,28 @@
+#mainTopic{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 *{
-    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
-h1{
-    color: #1b74e4;
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#searchbtn{
+.para{
     color: white;
-    background-color: black;
+    background-color: cornflowerblue;
 }
-.userbtn{
-    background-color: aqua;
+button{
+    background-color: purple;
+    color: azure;
+}
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+p:nth(2){
+    color: yellow;
+}
+#mainTopic::first-letter{
+    color: red;
 }
