@@ -1,4 +1,4 @@
-#mainTopic{
+/* #mainTopic{
     color: blue;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -25,4 +25,23 @@ p:nth(2){
 }
 #mainTopic::first-letter{
     color: red;
+} */
+#top{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 30px;
+    margin: 30px;
+}
+#one{
+    border: 2px solid black;
+    margin: 10px;
+}
+#two{
+    border: 2px solid black;
+    margin: 10px;
+}
+#three{
+    border: 2px solid black;
+    margin: 10px;
 }
